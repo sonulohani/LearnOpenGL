@@ -70,8 +70,6 @@ if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(tutorial-02)
 endif()
 
-#file(COPY shader DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
-
 add_custom_command(
     TARGET tutorial-02 PRE_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_directory

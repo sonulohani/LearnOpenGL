@@ -99,10 +99,10 @@ void installShaders() {
   GLuint fragmentShaderID = glCreateShader(GL_FRAGMENT_SHADER);
 
   const char *adapter[1];
-  std::string temp = readShaderCode("shader/VertexShaderCode.vert");
+  std::string temp = readShaderCode("shaders/VertexShaderCode.vert");
   adapter[0] = temp.c_str();
   glShaderSource(vertexShaderID, 1, adapter, 0);
-  temp = readShaderCode("shader/FragmentShaderCode.frag");
+  temp = readShaderCode("shaders/FragmentShaderCode.frag");
   adapter[0] = temp.c_str();
   glShaderSource(fragmentShaderID, 1, adapter, 0);
 
