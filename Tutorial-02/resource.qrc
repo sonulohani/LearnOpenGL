@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>FragmentShaderCode.frag</file>
+        <file>VertexShaderCode.vert</file>
+    </qresource>
+</RCC>
