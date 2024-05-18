@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.22)
 
 project(tutorial-01)
 
+set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} /home/sonul/Documents/github/SOIL2/install/share/soil2)
+
 find_package(glfw3 REQUIRED)
 find_package(GLEW REQUIRED)
 find_package(OpenGL REQUIRED)
